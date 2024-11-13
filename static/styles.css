@@ -13,8 +13,8 @@ body, html {
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -43,13 +43,10 @@ body, html {
     gap: 10px;
 }
 
-/* Center the form on the page */
 form {
-    width: 300px;  /* You can adjust the width of the form */
-    margin: 0 auto;  /* This centers the form horizontally */
-    padding: 20px;  /* Optional: Adds padding inside the form */
-    border: 1px solid #ccc;  /* Optional: Adds border around the form */
-    border-radius: 5px;  /* Optional: Rounds the corners of the form */
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Ensure the label is on top and centered */
@@ -81,3 +78,5 @@ form button {
     font-size: 16px;
     cursor: pointer;
 }
+
+
