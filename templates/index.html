@@ -13,9 +13,26 @@
         <h2>Welcome Message</h2>
         <h2>Weather App</h2>
     </section>
-    <section class="input-field">
-        <label for="location">Enter Town Name:</label>
-        <input id="location" type="text">
+
+    <section class="api-data">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Get Weather</button>
+        </form>
+
+        <!-- Display Weather Data if Available -->
+        {% if weather_data %}
+            {% if weather_data.error %}
+                <p>{{ weather_data.error }}</p>
+            {% else %}
+                <h2>Weather in {{ weather_data.name }}</h2>
+                <p>Temperature: {{ weather_data.main.temp }}°C</p>
+                <p>Weather: {{ weather_data.weather.0.description }}</p>
+                <p>Humidity: {{ weather_data.main.humidity }}%</p>
+                <p>Wind Speed: {{ weather_data.wind.speed }} m/s</p>
+            {% endif %}
+        {% endif %}
     </section>
 </div>
 </body>
