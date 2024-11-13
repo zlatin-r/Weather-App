@@ -15,6 +15,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Sour Gummy', sans-serif;
 }
 
 .container {
@@ -23,8 +24,10 @@ body, html {
     justify-content: center;
     width: 40%;
     border: 1px solid grey;
+    border-radius: 15px;
     padding: 30px;
-    gap: 30px;
+    gap: 10px;
+    background-color: seashell;
 }
 
 .titles {
@@ -33,6 +36,7 @@ body, html {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 26px;
 }
 
 .api-data {
@@ -47,22 +51,27 @@ form {
     width: 300px;
     margin: 0 auto;
     padding: 20px;
+    color: #205756;
+}
+
+h2, p, h4 {
+    color: #205756;
 }
 
 /* Ensure the label is on top and centered */
 form label {
     display: block;
-    text-align: center;  /* This aligns the label text in the center */
+    text-align: center; /* This aligns the label text in the center */
     margin-bottom: 10px;
 }
 
 /* Style the form input fields */
 form input[type="text"] {
-    width: 100%;  /* Makes the input take the full width of the form */
+    width: 100%; /* Makes the input take the full width of the form */
     padding: 8px;
     border-radius: 4px;
     border: 1px solid #ccc;
-    margin-bottom: 15px;  /* Space between input fields */
+    margin-bottom: 15px; /* Space between input fields */
     display: block;
 }
 
@@ -79,4 +88,11 @@ form button {
     cursor: pointer;
 }
 
-
+.weather-icon {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    background-color: #0aa5c3;
+    border: 3px solid #0aa5c3;
+    border-radius: 50%;
+}

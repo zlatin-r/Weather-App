@@ -6,12 +6,16 @@
     <meta charset="UTF-8">
     <title>weather_app</title>
     <link rel="stylesheet" href="{% static '/styles.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
     <section class="titles">
-        <h2>Welcome Message</h2>
-        <h2>Weather App</h2>
+        <h2>Know the Weather</h2>
+        <h4>with</h4>
+        <h2>The Weather App</h2>
     </section>
 
     <section class="api-data">
@@ -21,11 +25,13 @@
             <button type="submit">Get Weather</button>
         </form>
 
-        <!-- Display Weather Data if Available -->
         {% if weather_data %}
             {% if weather_data.error %}
                 <p>{{ weather_data.error }}</p>
             {% else %}
+                <img class="weather-icon"
+                     src="http://openweathermap.org/img/wn/{{ weather_data.weather.0.icon }}.png"
+                     alt="{{ weather_data.weather.0.description }}">
                 <h2>Weather in {{ weather_data.name }}</h2>
                 <p>Temperature: {{ weather_data.main.temp }}°C</p>
                 <p>Weather: {{ weather_data.weather.0.description }}</p>
