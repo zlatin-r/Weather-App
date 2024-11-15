@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3cf8dbb3-9c29-4e3e-8901-d825e8d9abd0" name="Changes" comment="Changes Commited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/zl/JS-Front-End/Objects and Classes - Exercise&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -162,6 +162,8 @@
       <updated>1731515806712</updated>
       <workItem from="1731515810571" duration="11568000" />
       <workItem from="1731529186939" duration="4152000" />
+      <workItem from="1731575946116" duration="177000" />
+      <workItem from="1731593917084" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -315,7 +317,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731533186253</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Changes Commited">
+      <option name="closed" value="true" />
+      <created>1731575957791</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731575957791</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changes Commited">
+      <option name="closed" value="true" />
+      <created>1731575968630</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731575968630</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
