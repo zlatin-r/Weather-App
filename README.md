@@ -5,4 +5,5 @@ Temperature in Celsius
 Weather condition (e.g., overcast clouds)
 Humidity percentage
 Wind speed in meters per second
+
 Ideal for practicing API integration and building interactive web apps!
