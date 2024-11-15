@@ -1,8 +1,8 @@
 # Django Weather App
 A simple Django web application that allows users to enter a city name and receive real-time weather updates, including:
 
-Temperature in Celsius
-Weather condition (e.g., overcast clouds)
+Temperature in Celsius                                                                                       
+Weather condition (e.g., overcast clouds)                                                                 
 Humidity percentage
 Wind speed in meters per second
 
